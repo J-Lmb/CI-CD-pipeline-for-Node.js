@@ -1,0 +1,35 @@
+﻿extends layout
+
+block content
+  .main-container
+    .cloud-image
+        img(src='/images/successCloudNew.svg')
+    .content
+        //.tweet-container
+             a(href='http://twitter.com/intent/tweet/?text=I%20just%20created%20a%20new%20Node.js%20Express%20website%20on%20Azure%20using%20Azure%20DevOps%20Project&hashtags=AzureDevOpsProject%2CVSTS%20%40Azure%20%40VSTS')
+                img(src='/images/tweetThis.svg')    
+        .content-body
+            .success-text
+                p Awesome!! Here is my Output 4.1 :-)
+
+            .description 
+                p My Web app using Node.js with Express web framework
+            //.description
+                p I wrote my Web app using Node.js with Express web framework
+    
+  .row
+    .col-md-4
+      h2 Visit my GitHub
+      p Clone the code repository and start editing on IDE of your choice
+      p
+        a.btn.btn-default(href='https://github.com/J-Lmb/CI-CD-pipeline-for-Node.js') Ready! &raquo;
+    .col-md-4
+      h2 Check the Andela Output
+      p Description of Output 4.1: Building and working with a CI/CD Pipeline for a team.
+      p
+        a.btn.btn-default(href='https://andela.instructure.com/courses/160/assignments/1530?module_item_id=5757') Ready! &raquo;
+    .col-md-4
+      h2 Azure defining DevOps
+      p Learn more about DevOps, Simplify, speed, and improve cloud development.
+      p
+        a.btn.btn-default(href='https://azure.microsoft.com/en-us/solutions/devops/') Ready! &raquo;
