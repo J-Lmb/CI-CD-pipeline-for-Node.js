@@ -13,6 +13,7 @@ The Azure DevOps project created a Git repository in your VSTS or GitHub account
 Before going any further, clone this GitHub repo on your local drive:
 
 git clone https://github.com/J-Lmb/CI-CD-pipeline-for-Node.js.git
+Create your package-lock.json and package.json containing your dependencies.
 
 5. Select the link for your master branch on your DevOps project dashboard.
 6. This link will open a the newly created Git repository on Azure with a sample code for your project.
